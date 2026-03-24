@@ -1,3 +1,4 @@
+## Kindly note to open the charts on vscode, user/ready have to install the live preview extension from microsoft on vscode. This is as a result of the charts having .html
 # ATM Transaction Analysis (2015–2017)
 
 ## Project Overview
@@ -116,20 +117,3 @@ Possible changes in ATM network usage
 5. ATM usage is slightly higher on working days
 6. Festival periods can influence higher withdrawal volumes
 7. Average withdrawal amounts increase gradually during the year
-
-# Project Structure
-Project
-│
-├── data
-│   ├── processed
-│
-├── charts
-│   ├── monthly charts
-│   ├── weekly charts
-│   ├── ATM analysis
-│   ├── card usage
-│
-├── processing
-│   └── analysis scripts
-|
-└── README.md
