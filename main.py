@@ -4,13 +4,13 @@ import os
 # Fix import issues
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from Processing.like import main as like_main
+from Processing.analyse_data import main as analyse_data_main
 
 
 def run():
     print("Starting ATM Data Analysis...\n")
 
-    like_main()
+    analyse_data_main()
 
     print("\nAnalysis Completed Successfully!")
 
